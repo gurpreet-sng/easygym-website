@@ -742,7 +742,9 @@ position: relative;
 }
 .sms-refral-section .gamebox{
 	background-color: #CDFFEC;
-	min-height: 460px;
+	border-radius: 80px;
+	min-height: auto;
+    height: auto;
 }
 .sms-refral-section .game-icon{
 	margin-top: 0px;
@@ -872,6 +874,243 @@ position: relative;
     color: #343434;
     margin: 25px 0px;
 }
+.freedemo-btn{
+	justify-content: end;
+}
+.tryfree{
+	margin-top: 40px;
+}
+.banner-section-wrapper.client-management-banner-wrapper.landingpage-banner:before{
+	display: none;
+}
+.our-clients.think-digital h2{
+	text-align: center;
+	line-height: 1em;
+	font-size: 150px;
+}
+.our-clients.think-digital .intro{
+	text-align: center;
+	margin-top: -100px;
+}
+.sms-refral-section{
+	background: linear-gradient(180deg, rgba(218, 255, 222, 0) 0%, #DBFFDA 100%);
+}
+.gamebox.referral-programs{
+    margin-top: 100px;
+}
+.our-clients.think-digital .gamebox{
+	height: auto;
+}
+.our-clients.think-digital .gamebox .game-icon{
+	margin: 0px;
+}
+.sp-bottom{
+	margin-bottom: 40px;
+}
+.sp-top{
+	margin-top: 40px;
+}
+.our-clients.think-digital .spacetop{
+	margin-top:60px;
+}
+.think-digital .game-icon img {
+    width: 270px;
+}
+.our-clients.think-digital .gamebox{
+	background-color: #ffffff;
+}
+.our-clients.think-digital .digital-marketing-title{
+	margin-bottom: 100px;
+}
+.our-clients.think-digital .spacetop .game-icon{
+	margin-top: -150px;
+}
+.our-clients.think-digital .spacebootom .game-icon{
+	margin-bottom: -150px;
+}
+.book-free .btn{
+    width: 230px;
+}
+.our-clients.think-digital{
+	position: relative;
+}
+.our-clients.think-digital:before{
+	content: "";
+	width: 401px;
+	height: 129px;
+	position: absolute;
+	background-image: url(../images/dots.png);
+	bottom: -65px;
+}
+.page-target .grapic img{
+	width: 100%;
+}
+.game-changer-wrapper.page-target h2{
+	font-size: 100px;
+    text-align: left;
+}
+.game-changer-wrapper.page-target .gamechanger-title{
+	margin-bottom: 0px;
+}
+.game-changer-wrapper.page-target .gamebox{
+	background-color: transparent;
+	height: auto;
+	margin-bottom: 60px;
+}
+.page-target .intro h3{
+	margin-bottom: 0px;
+	text-align: center;
+}
+.game-changer-wrapper.page-target{
+	padding-top: 150px;
+}
+.game-changer-wrapper.page-target .gamebox .board{
+	margin-bottom: 30px;
+}
+.gamebox.no-box{
+	background-color: transparent;
+    border: 0px;
+    text-align: left;
+    padding: 0px 100px 0px 0px;
+    height: auto;
+}
+.game-changer-wrapper.give-digital .grapic{
+    margin-top: 0px;
+}
+.game-changer-wrapper.give-digital{
+	justify-content: center;
+}
+.game-changer-wrapper.give-digital h3{
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 82px;
+}
+.game-changer-wrapper.give-digital .gamebox ol li{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 50px;
+}
+.game-changer-wrapper.give-digital .gamebox ol{
+	margin-top: 60px;
+}
+.game-changer-wrapper.give-digital .grapic img{
+	width: 100%;
+}
+.game-changer-wrapper.give-digital .row{
+	justify-content: center;
+    align-items: center;
+}
+.game-changer-wrapper.give-digital{
+padding: 100px 0px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fff2d5+0,ffffff+100 */
+background: #fff2d5; /* Old browsers */
+background: -moz-linear-gradient(top,  #fff2d5 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fff2d5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fff2d5 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+.game-changer-wrapper.page-target .col-md-6{
+	position: relative;
+}
+.game-changer-wrapper.page-target .automate-payments{
+	bottom: 0px;
+    position: absolute;
+}
+.game-changer-wrapper.page-target{
+	padding-bottom: 0px;
+}
+.actionspace{
+	padding-bottom: 100px;
+}
+.getting-clients-section ol li{
+	list-style: auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.getting-clients-section.billboard-sec{
+	padding: 100px 0px 0px;
+}
+.off-markit{
+	padding-bottom: 60px;
+}
+.billbord-image{
+	position: relative;
+}
+.billbord-image .follow-img{
+
+}
+.getting-clients-section.billboard-sec .left-right-space{
+	padding-right: 0px;
+}
+.bill-img img{
+	width: 100%;
+}
+.col-md-6.billbord-image{
+	padding-right: 0px;
+}
+.getting-clients-section.billboard-sec{
+	position: relative;
+}
+.getting-clients-section.billboard-sec:before{
+	content: "";
+	width: 302px;
+	height: 495px;
+	position: absolute;
+	background-image: url(../images/qrcode.png);
+	display: none;
+}
+.chalo-sec{
+	position: relative;
+}
+.chalo-sec:before{
+	content: "";
+	position: absolute;
+	width: 819px;
+	height: 633px;
+	background-image: url(../images/chalo.png);
+	position: absolute;
+	right: 0px;
+	display: none;
+}
+.chalo-img img{
+	width: 100%;
+}
+.subscribe-section .newsletter-wrapper h4{
+	color: #000000;
+	font-weight: 600;
+	font-size: 33px;
+	line-height: 54px;
+	text-align: center;
+}
+.subscribe-section{
+	padding: 100px 0px;
+}
+.subscribe-section .newsletter-wrapper form{
+    display: flex;
+	width: 50%;
+    margin: auto;
+}
+.subscribe-section .newsletter-wrapper form input[type="email"]{
+	margin-bottom: 0px;
+	background-color: #F5F5F5;
+	margin-right: 30px;
+}
+.subscribe-section .newsletter-wrapper form [type=submit]{
+	width: 180px;
+	background-color: #1562D9;
+	color: #ffffff;
+}
+.pinkfooter-social ul li{
+	list-style: none;
+	display: inline-block;
+}
+.pink-footer{
+	text-align: center;
+}
+.pink-footer{
+	background-image: url("images/footer-pink.pmg");
+}
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
@@ -884,4 +1123,3 @@ position: relative;
 		font-size: 250px;
 	}
 }
-
