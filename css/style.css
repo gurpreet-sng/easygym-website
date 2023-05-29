@@ -1167,6 +1167,47 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 .faq-wrapper-section strong{
 	font-weight: normal;
 }
+.menulink{
+	display: flex;
+	text-decoration: none;
+	color: #000000;
+}
+.menulink .linkicon{
+	flex-shrink: 0;
+}
+.navbar-expand-md .navbar-nav{
+	position: relative;
+}
+.navbar-expand-md .navbar-nav li ul{
+	position: absolute;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 40px 20px;
+	box-shadow: 0px 0px 10px 0px #f2f2f2f2;
+	width: 1180px;
+    display: flex;
+	flex-wrap: wrap;
+	margin-left: -100px;
+	display: none;
+}
+.navbar-expand-md .navbar-nav li ul li{
+	list-style: none;
+	width: 380px;
+    margin-bottom: 30px;
+}
+.navbar-expand-md .navbar-nav li:hover ul{
+	display: flex;
+}
+.linkicon{
+	margin-right: 10px;
+}
+.menulink-text{
+	padding-right: 35px;
+}
+.menulink-text h6{
+	font-weight: 500;
+	font-size: 20px;
+}
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
