@@ -330,6 +330,12 @@ position: relative;
 .feature-section-wrapper.more-features.blue-shadow .thumbnail-box .thumbnail-icon img{
 	width: 100%;
 }
+.feature-section-wrapper.more-features.blue-shadow.purple-shadow .thumbnail-box .thumbnail-icon{
+	width: auto;
+}
+.feature-section-wrapper.more-features.blue-shadow.purple-shadow .thumbnail-box .thumbnail-icon img{
+	width: auto;
+}
 .polygon-icon{
 	height: 182px;
 }
@@ -490,7 +496,7 @@ position: relative;
 	background-image: url("../images/tes.png");
 	background-repeat: no-repeat;
 	position: absolute;
-	left: -30px;
+	left: 0px;
     top: 0px;
 }
 .teswrap p{
@@ -593,7 +599,7 @@ position: relative;
 .our-clients.billing-payment{
 	background: linear-gradient(180deg, rgba(255, 241, 218, 0) 0%, #EAF7FF 100%);
 	padding-bottom: 0px;
-	height: 990px;
+	height: 1030px;
 }
 .our-clients.billing-payment h2{
 	text-shadow: 0 0 3px #CBEBFF, 0 0 5px #CBEBFF;
@@ -1110,6 +1116,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 }
 .pink-footer{
 	background-image: url("images/footer-pink.pmg");
+}
+.billing-features .thumbnail-icon{
+	width: 150px;
+	margin: auto;
+}
+.billing-features .thumbnail-icon img{
+	width: 100%;
+}
+.employe-feature .thumbnail-box{
+	margin-bottom: 100px;
+}
+.employe-feature .thumbnail-box.spacetop{
+	margin-top: 50px;
 }
 @media only screen and (min-width:1920px){
 
