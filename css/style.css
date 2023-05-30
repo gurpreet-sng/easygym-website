@@ -185,6 +185,7 @@ body{
 	color: #ffffff;
 	text-shadow: 0 0 3px #FFEBC9, 0 0 5px #FFEBC9;
 	font-weight: 700;
+	text-align: center;
 }
 .our-clients{
 	background: linear-gradient(180deg, rgba(255, 241, 218, 0) 0%, #FFF1DA 100%);
@@ -312,6 +313,9 @@ position: relative;
     text-align: center;
     background-position: center top;
     height: 312px;
+	display: block;
+	text-decoration: none;
+	color: #000000;
 }
 .polygon h4{
 	margin-bottom: 0px;
@@ -1207,6 +1211,110 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 .menulink-text h6{
 	font-weight: 500;
 	font-size: 20px;
+}
+.banner-section-wrapper.gym-banner-wrapper:before{
+	display: none;
+}
+.gym-banner-wrapper .banner-wrapper h1{
+	text-align: center;
+	margin-top: 0px;
+}
+.gym-banner-wrapper .gym-banner h6{
+	text-align: center;
+	font-weight: 500;
+	font-size: 30px;
+}
+.gym-banner-wrapper .gym-banner p{
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 30px;
+}
+.gym-banner-wrapper .banner-wrapper{
+	background-image: none;
+}
+.banner-section-wrapper.marketing-banner-wrapper.gym-banner-wrapper .banner-wrapper{
+	padding: 100px 0px 60px;
+}
+.gym-banner-wrapper .gym-banner .btn{
+	width: 250px;
+    margin-top: 40px;
+}
+.biometric-image img{
+	width: 100%;
+}
+.our-clients.biometric-section{
+	background: linear-gradient(180deg, rgba(205, 255, 236, 0) 0%, #CBEBFF 100%);
+	background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+	position: relative;
+}
+.our-clients.biometric-section:before{
+	content: "";
+	background-image: url("../images/layer.png");
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	height: 100%;
+    background-repeat: no-repeat;
+}
+.our-clients.biometric-section h2 {
+    text-shadow: 0 0 3px #FFDBCB, 0 0 5px #FFDBCB;
+}
+.our-clients.biometric-section .intro p{
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 50px;
+}
+.our-clients.biometric-section .row{
+	align-items: center;
+}
+.our-clients.biometric-section .intro{
+	margin-left: 30px;
+}
+.game-changer-wrapper.workout-plan.boost-productivity .grapic{
+	margin-top: 0px;
+}
+.game-changer-wrapper.workout-plan.boost-productivity .row{
+	align-items: center;
+}
+.game-changer-wrapper.workout-plan.boost-productivity{
+    padding-top: 100px;
+	background-image: none;
+}
+.game-changer-wrapper.workout-plan.boost-productivity:before{
+    top: -120px;
+}
+.game-changer-wrapper.diet-plan.retain-clients .row{
+	align-items: center;
+}
+.game-changer-wrapper.workout-plan.boost-productivity .intro p{
+	font-size: 30px;
+	line-height: 50px;
+}
+.game-changer-wrapper.diet-plan.retain-clients .intro p{
+	font-size: 30px;
+	line-height: 50px;
+}
+.automate-payments {
+    padding-left: 0px;
+}
+.game-changer-wrapper.diet-plan.retain-clients{
+	padding-bottom: 150px;
+	background: linear-gradient(180deg, rgba(203, 235, 255, 0) 0%, #CBEBFF 100%);
+}
+.we-fitin-section.why-dance-studios:before{
+	display: none;
+}
+.we-fitin-section.why-dance-studios{
+	padding: 150px 0px;
+}
+.we-fitin-section.why-dance-studios .polygon h4{
+	margin-top: 30px;
+}
+.we-fitin-section.why-dance-studios .polygon-icon{
+	height: 200px;
 }
 @media only screen and (min-width:1920px){
 
