@@ -1316,6 +1316,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 .we-fitin-section.why-dance-studios .polygon-icon{
 	height: 200px;
 }
+.feature-section-wrapper.more-features.billing-features.pinkbg{
+	background: linear-gradient(180deg, rgba(203, 235, 255, 0) 0%, #F2BBCF 100%);
+}
+.information-text p{
+	font-size: 30px;
+	line-height: 50px;
+}
+.information-text h3{
+	font-size: 60px;
+}
+.feature-section-wrapper.more-features.blue-shadow.purple-shadow{
+	background: linear-gradient(180deg, rgba(205, 255, 236, 0) 0%, #FBE7FF 100%);
+}
+.feature-section-wrapper.more-features.blue-shadow{
+	background: linear-gradient(180deg, rgba(203, 235, 255, 0) 0%, #E8F6FF 100%);
+}
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
