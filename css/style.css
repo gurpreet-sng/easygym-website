@@ -1332,6 +1332,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 .feature-section-wrapper.more-features.blue-shadow{
 	background: linear-gradient(180deg, rgba(203, 235, 255, 0) 0%, #E8F6FF 100%);
 }
+.polygon-icon.fts img{
+	margin-top: -35px;
+}
+.corporate-level-section .row{
+	align-items: center;
+}
+.automate-gym-wrapper .row{
+	align-items: center;
+}
+.banner-section-wrapper.client-management-banner-wrapper .row{
+	align-items: center;
+}
+.game-changer-wrapper.workout-plan .row{
+	align-items: center;
+}
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
