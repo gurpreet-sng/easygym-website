@@ -189,7 +189,7 @@ body{
 }
 .our-clients{
 	background: linear-gradient(180deg, rgba(255, 241, 218, 0) 0%, #FFF1DA 100%);
-	padding-bottom: 0px;
+	padding-bottom: 100px;
 }
 .our-clients-logos ul{
 	margin: 0px;
