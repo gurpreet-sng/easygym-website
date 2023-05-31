@@ -189,7 +189,7 @@ body{
 }
 .our-clients{
 	background: linear-gradient(180deg, rgba(255, 241, 218, 0) 0%, #FFF1DA 100%);
-	padding-bottom: 100px;
+	padding-bottom: 0px;
 }
 .our-clients-logos ul{
 	margin: 0px;
@@ -1354,6 +1354,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 .game-changer-wrapper.workout-plan .row{
 	align-items: center;
 }
+.blue-footer .row{
+	justify-content: center;
+}
+.our-clients.marketing-sec.attendance-sec .gamebox.information-text{
+	padding-right: 0px;
+	padding-top: 100px;
+    padding-bottom: 100px;
+}
+.our-clients.marketing-sec.attendance-sec h2{
+	margin-bottom: -100px;
+}
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
@@ -1364,5 +1375,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	}
 	.our-clients h2{
 		font-size: 250px;
+	}
+	.container-fluid{
+		width: 1920px;
 	}
 }
