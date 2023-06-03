@@ -158,6 +158,9 @@ body{
 	background-position: bottom;
     background-repeat: no-repeat;
     padding-bottom: 200px;
+	background-position: bottom center;
+}
+.banner-wrapper.layers-top{
 	background-position: top center;
 }
 .banner-wrapper.client-management-banner h1{
@@ -2080,6 +2083,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 
 @media only screen and (max-width:575px){
 
+	.gamebox.referral-programs {
+		margin-top: 60px;
+	}
 	.sms-refral-section {
 		padding-top: 40px;
 	}
