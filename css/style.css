@@ -1846,7 +1846,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	margin: 0;
 }
 .nav-link{
-	text-align: center;
+	text-align: left;
+}
+.navbar-nav.me-auto.mb-2.mb-md-0{
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.social-icons ul {
+    text-align: left;
+}
+.button-group {
+    text-align: left;
 }
 .navbar-expand-md .navbar-nav li ul li{
 	width: auto;
@@ -2020,12 +2030,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	.left-right-space {
 		padding: 0px 10px;
 	}
-	.social-icons ul{
-		text-align: center;
-	}
-	.button-group{
-		text-align: center;
-	}
+	
 	.sms-refral-section .game-icon {
 		margin-top: 0px;
 	}
@@ -2080,10 +2085,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	.our-clients.marketing-sec.attendance-sec h2{
 		margin-top: 40px;
 	}
+	.faq-wrapper-section .accordion-header button{
+		font-size: 25px;
+	}
 }
 
 @media only screen and (max-width:575px){
 
+	.faq-wrapper-section .accordion-header button{
+		font-size: 20px; 
+	}
 	.banner-wrapper h1 {
 		font-size: 35px;
 	}
