@@ -1762,6 +1762,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 }
 @media only screen and (max-width:767px){
 
+.game-changer-wrapper.workout-plan:before{
+	display: none;
+}
 .we-fitin-section.why-dance-studios .polygon-icon {
 	height: auto;
 	margin: auto;
