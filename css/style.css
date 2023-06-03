@@ -1948,9 +1948,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	.navbar-brand {
 		width: 120px;
 	}
-	.banner-wrapper h1{
-		margin-top: 40px;
-	}
 	.were-excited{
 		margin-top: 60px;
 	}
@@ -2084,6 +2081,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 
 @media only screen and (max-width:575px){
 
+	.banner-wrapper h1 {
+		font-size: 35px;
+	}
 	.game-changer-wrapper.workout-plan.retain-clients {
 		padding-top: 40px;
 	}
