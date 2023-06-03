@@ -2077,6 +2077,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	.game-changer-wrapper.workout-plan.boost-productivity{
 		padding-top: 60px;
 	}
+	.our-clients.marketing-sec.attendance-sec h2{
+		margin-top: 40px;
+	}
 }
 
 @media only screen and (max-width:575px){
