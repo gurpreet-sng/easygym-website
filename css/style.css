@@ -872,7 +872,8 @@ position: relative;
 }
 .our-clients.marketing-sec.attendance-sec.employee-sec h2{
 	text-shadow: 0 0 3px #CBEBFF, 0 0 5px #CBEBFF;
-	font-size: 200px
+	font-size: 200px;
+	margin-bottom: -100px;
 }
 .banner-section-wrapper.client-management-banner-wrapper.empbnn-wrapper:before{
 	display: none;
@@ -2083,6 +2084,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 
 @media only screen and (max-width:575px){
 
+	.game-changer-wrapper.workout-plan.retain-clients {
+		padding-top: 40px;
+	}
+	.our-clients.marketing-sec.attendance-sec.employee-sec h2 {
+		font-size: 50px;
+	}
 	.gamebox.referral-programs {
 		margin-top: 60px;
 	}
