@@ -201,10 +201,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+	flex-wrap: wrap;
 }
 .our-clients-logos ul li{
 	list-style: none;
 	display: inline-block;
+	width: 20%;
+    text-align: center;
+	margin-bottom: 40px;
 }
 .our-clients-logos ul.spacetopsixty{
 	margin-top: 60px;
@@ -351,7 +355,6 @@ position: relative;
     margin-top: -20px;
 }
 .we-fitin-section .row{
-	align-items: center;
     justify-content: center;
 }
 .getting-clients-section ul li{
@@ -373,6 +376,11 @@ position: relative;
     margin-bottom: 40px;
     text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
+.more-features-reporting b{
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
 .follow-img img{
 	width: 100%;
 }
@@ -390,7 +398,7 @@ position: relative;
 	padding-left: 0px;
 }
 .intro h2,.intro h3{
-	font-size: 60px;
+	font-size: 50px;
 	color: #343434;
 	font-weight: 700;
 	margin-bottom: 40px;
@@ -1277,9 +1285,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
     text-shadow: 0 0 3px #FFDBCB, 0 0 5px #FFDBCB;
 }
 .our-clients.biometric-section .intro p{
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
-	line-height: 50px;
+	line-height: 35px;
 }
 .our-clients.biometric-section .row{
 	align-items: center;
@@ -1304,12 +1312,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	align-items: center;
 }
 .game-changer-wrapper.workout-plan.boost-productivity .intro p{
-	font-size: 30px;
-	line-height: 50px;
+	font-size: 20px;
+	line-height: 35px;
 }
 .game-changer-wrapper.diet-plan.retain-clients .intro p{
-	font-size: 30px;
-	line-height: 50px;
+	font-size: 20px;
+	line-height: 35px;
 }
 .automate-payments {
     padding-left: 0px;
@@ -1334,11 +1342,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	background: linear-gradient(180deg, rgba(203, 235, 255, 0) 0%, #F2BBCF 100%);
 }
 .information-text p{
-	font-size: 30px;
-	line-height: 50px;
+	font-size: 20px;
+	line-height: 35px;
 }
 .information-text h3{
-	font-size: 60px;
+	font-size: 50px;
 }
 .feature-section-wrapper.more-features.blue-shadow.purple-shadow{
 	background: linear-gradient(180deg, rgba(205, 255, 236, 0) 0%, #FBE7FF 100%);
@@ -1387,6 +1395,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 .banner-section-wrapper.home-banner .banner-wrapper{
 	background-position: bottom center;
 }
+.our-clients.our-clients-home{
+	margin-top: -150px;
+}
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
@@ -1399,7 +1410,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 		font-size: 250px;
 	}
 	.container-fluid{
-		width: 1920px;
+		width: 1720px;
+	}
+	.gym-banner-wrapper .gym-banner p br{
+		display: none;
 	}
 }
 @media only screen and (max-width:1440px){
@@ -1426,7 +1440,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 		padding-bottom: 80px;
 	}
 	.our-clients-logos ul li{
-		margin: 0px 20px;
+		margin: 0px 20px 30px;
 	}
 	.our-clients-logos ul li img{
 		width: 100%;
@@ -1766,6 +1780,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 }
 @media only screen and (max-width:767px){
 
+.our-clients.our-clients-home{
+	margin-top: 0px;
+}
 .game-changer-wrapper.workout-plan:before{
 	display: none;
 }
@@ -2092,6 +2109,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 
 @media only screen and (max-width:575px){
 
+	.polygon {
+		width: 125px;
+		height: auto;
+		margin-bottom: 55px;
+	}
+	.polygon-icon{
+		width: 115px;
+	}
+	.polygon.dance-studio img {
+		margin-top: 0px;
+		width: 77px;
+		margin: auto;
+	}
+	.button-group.banner-buttons .btn.phnobtn{
+		margin-left: 0px;
+	}
 	.faq-wrapper-section .accordion-header button{
 		font-size: 20px; 
 	}
@@ -2121,11 +2154,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	}
 	.our-clients-logos ul li{
 		margin-bottom: 40px;
-		width: 100%;
 		text-align: center;
 	}
 	.our-clients-logos ul li img{
-		width: 200px;
+		width: 100px;
+	}
+	.our-clients-logos ul li {
+		margin: 0px 10px 30px;
 	}
 	.our-clients-logos ul.spacetopsixty{
 		margin-top: 0px;
