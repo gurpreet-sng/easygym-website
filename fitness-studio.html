@@ -114,23 +114,10 @@
                     </div>
                     <div class="container p-0">
                         <div class="owl-one owl-carousel owl-theme">
+    
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="teswrap">
-                                            <p>Excellent software. Easy to use also very good support from the staffs.
-                                                Really appreciate the effort they have taken.</p>
-                                            <i>-Anil Raj, <b>Tiger Gym</b></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="teswrap">
-                                            <p>Excellent software. Easy to use also very good support from the staffs.
-                                                Really appreciate the effort they have taken.</p>
-                                            <i>-Anil Raj, <b>Tiger Gym</b></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-12">
                                         <div class="teswrap">
                                             <p>Excellent software. Easy to use also very good support from the staffs.
                                                 Really appreciate the effort they have taken.</p>
@@ -141,21 +128,7 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="teswrap">
-                                            <p>Excellent software. Easy to use also very good support from the staffs.
-                                                Really appreciate the effort they have taken.</p>
-                                            <i>-Anil Raj, <b>Tiger Gym</b></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="teswrap">
-                                            <p>Excellent software. Easy to use also very good support from the staffs.
-                                                Really appreciate the effort they have taken.</p>
-                                            <i>-Anil Raj, <b>Tiger Gym</b></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-12">
                                         <div class="teswrap">
                                             <p>Excellent software. Easy to use also very good support from the staffs.
                                                 Really appreciate the effort they have taken.</p>
@@ -166,21 +139,40 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-12">
                                         <div class="teswrap">
                                             <p>Excellent software. Easy to use also very good support from the staffs.
                                                 Really appreciate the effort they have taken.</p>
                                             <i>-Anil Raj, <b>Tiger Gym</b></i>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
                                         <div class="teswrap">
                                             <p>Excellent software. Easy to use also very good support from the staffs.
                                                 Really appreciate the effort they have taken.</p>
                                             <i>-Anil Raj, <b>Tiger Gym</b></i>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="teswrap">
+                                            <p>Excellent software. Easy to use also very good support from the staffs.
+                                                Really appreciate the effort they have taken.</p>
+                                            <i>-Anil Raj, <b>Tiger Gym</b></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
                                         <div class="teswrap">
                                             <p>Excellent software. Easy to use also very good support from the staffs.
                                                 Really appreciate the effort they have taken.</p>
@@ -210,7 +202,24 @@
                         nav: true,
                         autoplay: true,
                         autoplayTimeout: 2000,
-                        autoplayHoverPause: true
+                        autoplayHoverPause: true,
+    
+                        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:2,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:true,
+                loop:false
+            }
+        }
+                        
                     });
         
                     $('.play').on('click', function () {

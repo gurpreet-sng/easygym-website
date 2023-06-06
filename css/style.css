@@ -1398,6 +1398,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 .our-clients.our-clients-home{
 	margin-top: -150px;
 }
+.feature-section-wrapper .thumbnail-icon img{
+	width: 200px;
+	margin: auto;
+}
+.feature-section-wrapper .owl-dot.active span{
+	background: #000000;
+}
+
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
