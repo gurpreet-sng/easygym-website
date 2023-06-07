@@ -1252,9 +1252,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	line-height: 40px;
 	margin-top: 30px;
 }
-.gym-banner-wrapper .banner-wrapper{
-	background-image: none;
-}
 .banner-section-wrapper.marketing-banner-wrapper.gym-banner-wrapper .banner-wrapper{
 	padding: 100px 0px 60px;
 }
@@ -1274,7 +1271,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 }
 .our-clients.biometric-section:before{
 	content: "";
-	background-image: url("../images/layer.png");
 	position: absolute;
 	width: 100%;
 	z-index: -1;
