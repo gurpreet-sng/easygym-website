@@ -1116,7 +1116,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	text-align: center;
 }
 .subscribe-section{
-	padding: 100px 0px;
+	padding: 100px 0px 0px 0px;
 }
 .subscribe-section .newsletter-wrapper form{
     display: flex;
@@ -1416,6 +1416,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 .game-changer-wrapper.automate-payments .game-icon{
 	position: absolute;
 	margin-top: 0px;
+}
+.pink-footer{
+	background-image: url(../images/footer-pink.png);
+	padding-top: 430px;
+    padding-bottom: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.phone-number-pink{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 34px;
+	color: #ffffff;
+	text-decoration: none;
+	padding-bottom: 60px;
+}
+.phone-number-pink a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0px 20px;
+}
+.cpright{
+	color: #ffffff;
+	font-size: 18px;
+}
+.pinkfooter-social ul{
+	padding: 40px 0px;
 }
 @media only screen and (min-width:1920px){
 
@@ -1805,6 +1834,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 }
 @media only screen and (max-width:767px){
 
+.btn.btn-primary.getfree-btn{
+	margin-bottom: 10px;
+}
 .our-clients.our-clients-home{
 	margin-top: 0px;
 }
@@ -1857,7 +1889,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	display: none;
 }
 .game-changer-wrapper.workout-plan.retain-clients .gamebox h3{
-	margin-top: 40px;
+	margin-top: 0px;
 }
 .feature-section-wrapper.more-features.blue-shadow.bio-metric-page {
     padding-top: 40px;
@@ -1869,7 +1901,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	flex-direction: column-reverse;
 }
 .game-changer-wrapper.workout-plan.retain-clients.col-reverse .gamebox.information-text{
-	margin-top: 40px;
+	margin-top: 0px;
 }
 .banner-section-wrapper{
 	background: none !important;
@@ -1932,8 +1964,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 .game-changer-wrapper.diet-plan .gamebox{
 	padding: 0px
 }
-.game-changer-wrapper.workout-plan .grapic {
+.game-changer-wrapper.workout-plan .grapic{
 	margin-top: 40px;
+	margin-bottom: 40px;
 }
 .game-changer-wrapper.diet-plan{
 	padding-top: 60px;
@@ -1953,6 +1986,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 .our-clients.billing-payment p {
     font-size: 20px;
     line-height: 38px;
+	margin-top: 0px;
 }
 	.feature-section-wrapper .glossy-title{
 		font-size: 80px;
@@ -1996,6 +2030,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	}
 	.banner-wrapper h1 {
 		font-size: 40px;
+		margin-top: 20px;
+	}
+	.banner-buttons{
+		margin-top: 20px;
 	}
 	.navbar-brand {
 		width: 120px;
@@ -2133,10 +2171,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	.owl-dot span{
 		width: 10px;
 	}
+	.automate-payments{
+		padding-left: 0px;
+		flex-direction: column-reverse;
+		display: flex;
+		margin-bottom: 20px;
+	}
+	.automate-payments .grapic{
+		margin-bottom: 0px;
+	}
+	.game-changer-wrapper.workout-plan {
+		padding-top: 10px;
+	}
+	.our-clients.billing-payment.payment-history .intro h3{
+		margin-bottom: 0px;
+	}
 }
 
 @media only screen and (max-width:575px){
-
+	.thumbnail-icon{
+		width: auto;
+	}
 	.polygon {
 		width: 125px;
 		height: auto;
