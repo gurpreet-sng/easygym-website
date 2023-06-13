@@ -1576,6 +1576,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
  .circle-icon{
 	position: absolute;
  }
+ .deg-0 .circle-icon{
+	left: -103px;
+ }
+ .deg-45 .circle-icon{
+	top: -65px;
+    left: -35px;
+ }
+ .deg-90 .circle-icon{
+	top: -105px;
+ }
+ .deg-135 .circle-icon{
+	right: -50px;
+    top: -40px;
+ }
+ .deg-180 .circle-icon{
+	right: -108px;
+ }
+ .deg-225 .circle-icon{
+	right: -70px;
+    bottom: -25px;
+ }
+ .deg-270 .circle-icon{
+	bottom: -110px;
+ }
+ .deg-315 .circle-icon{
+	bottom: -48px;
+    left: -48px;
+ }
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
