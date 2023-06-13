@@ -1610,6 +1610,42 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
  .we-fitin-section.why-dance-studios.gradiant-reverse{
 	background: linear-gradient(180deg, rgba(255, 241, 218, 0) 0%, #FFDFE7 100%);
  }
+ .circle-wrapper-container.we-fitin-section.hideon1440{
+	display: block;
+}
+.feature-circle{
+	width: auto;
+    height: 450px;
+    background: #FFEBC9;
+    border-radius: 51%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+	margin-bottom: 50px;
+}
+.feature-circle .circle-icon{
+	position: relative;
+	margin-bottom: 30px;
+}
+.feature-circle h6{
+	font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.circles-section-mobile.we-fitin-section{
+	background: none !important;
+	padding: 100px 0px;
+}
+.circles-section-mobile.we-fitin-section:before{
+	display: none;
+}
+.circles-section-mobile.we-fitin-section{
+	display: none;
+}
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
@@ -1629,7 +1665,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	}
 }
 @media only screen and (max-width:1440px){
-
+	.circle-wrapper-container.we-fitin-section.hideon1440{
+		display: none;
+	}
+	.circles-section-mobile.we-fitin-section{
+		display: block;
+	}
 	.game-changer-wrapper.automate-payments .game-icon{
 		position: static;
 	}
@@ -2004,6 +2045,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 }
 @media only screen and (max-width:767px){
 
+.feature-circle {
+	width: 360px;
+	height: 360px;
+	margin: auto auto 30px;
+	padding: 20px 30px;
+}
+.feature-circle h6{
+	font-size: 20px;
+    margin-bottom: 10px;
+}
+.feature-circle p{
+	font-size: 16px;
+}
+.feature-circle .circle-icon{
+	margin-bottom: 10px;
+}
+.circles-section-mobile.we-fitin-section{
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+.clients-say-section:before {
+	content: "";
+	width: 278px;
+    height: 250px;
+}
+.teswrap iframe {
+    width: 100%;
+    height: 300px;
+}
 .game-changer-wrapper.workout-plan.retain-clients.instant-access .grapic{
 	margin-bottom: 0px;
 }
