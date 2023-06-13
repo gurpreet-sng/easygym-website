@@ -1604,6 +1604,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	bottom: -48px;
     left: -48px;
  }
+ .biometric-image.qrportal img{
+	width: auto;
+ }
+ .we-fitin-section.why-dance-studios.gradiant-reverse{
+	background: linear-gradient(180deg, rgba(255, 241, 218, 0) 0%, #FFDFE7 100%);
+ }
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
