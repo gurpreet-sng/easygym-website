@@ -1360,7 +1360,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	padding: 150px 0px;
 }
 .we-fitin-section.why-dance-studios .polygon h4{
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .we-fitin-section.why-dance-studios .polygon-icon{
 	height: 200px;
@@ -1492,6 +1492,90 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	width: 100%;
 	height: 500px;	
 }
+.circle-wrapper {
+	width:1100px;
+	height:1100px;
+	border-radius:51%;
+	background:transparent;
+	position:relative;
+	margin:auto;
+	border: 2px dashed #000000;
+	background-image: url("../images/easy-graphic.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+ }
+ 
+ .circle{
+	display:block;
+	position:absolute;
+	top:51%;
+	left:51%;
+	width:300px;
+	height:300px;
+	margin:-51px;
+	background:#FFEBC9;
+	border-radius:51%;
+	text-align:center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+ }
+ .circle h6{
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 28px;
+	margin-bottom: 20px;
+ }
+ .circle p{
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px;
+ }
+ .deg-0 {
+	transform:rotate(-15deg) translate(480px) rotate(-345deg);
+ }
+ .deg-45 {
+	transform:rotate(46deg) translate(425px) rotate(-46deg);
+ }
+ 
+ .deg-90 {
+	transform:rotate(104deg) translate(480px) rotate(-104deg);
+ }
+ 
+ .deg-135 {
+	transform:rotate(152deg) translate(600px) rotate(-152deg);
+ }
+ 
+ .deg-180 {
+	transform:rotate(190deg) translate(700px) rotate(-190deg);
+ }
+ 
+ .deg-225 {
+	transform:rotate(223deg) translate(730px) rotate(-222deg);
+ }
+ 
+ .deg-270{
+	
+	transform: rotate(260deg) translate(695px) rotate(-260deg);
+ }
+ .deg-315{
+	transform: rotate(300deg) translate(595px) rotate(-300deg);
+ }
+ .circle-wrapper-container.we-fitin-section{
+	padding: 120px 0px 300px;
+	background: linear-gradient(180deg, rgba(205, 255, 236, 0) 0%, #FFF6E7 100%);
+ }
+ .circle-wrapper-container.we-fitin-section h2{
+	margin-bottom: 260px;
+ }
+ .circle-wrapper-container.we-fitin-section:before{
+	display: none;
+ }
+ .circle-icon{
+	position: absolute;
+ }
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
