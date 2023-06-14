@@ -2429,6 +2429,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	.our-clients.billing-payment.payment-history .intro h3{
 		margin-bottom: 0px;
 	}
+	.biometric-image.qrportal img {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width:575px){
@@ -2506,5 +2509,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	}
 	.we-fitin-section:before{
 		display: none;
+	}
+	.feature-circle {
+		width: auto;
+		height: auto;
+	}
+	.we-fitin-section.why-dance-studios .polygon h4{
+		margin-top: 80px;
 	}
 }
