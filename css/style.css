@@ -1951,6 +1951,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	width: 100%;
 	height: 450px;
 }
+.banner-content-wrapper{
+	margin-bottom: 100px;
+}
+.recommended-for .section-title{
+	margin-bottom: 40px;
+}
+.recommended-for .owl-dots{
+	margin-top: 40px;
+}
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
@@ -2511,9 +2520,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 		margin-top: 60px;
 		margin-bottom: 60px;
 	}
+	.banner-content-wrapper {
+		margin-bottom: 60px;
+	}
 }
 @media only screen and (max-width:767px){
 
+.banner-content-wrapper{
+	margin-bottom: 0px;
+}
 .modal-body iframe{
 	width: 100%;
 	height: 250px;
