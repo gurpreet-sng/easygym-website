@@ -795,7 +795,7 @@ position: relative;
 	font-weight: 500;
 }
 .blue-footer ul li i{
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .blue-footer ul{
 	margin: 0px;
@@ -810,7 +810,7 @@ position: relative;
 }
 .social-links ul li{
 	display: inline-block;
-	margin: 0px 10px 20px;
+	margin: 0px 20px 20px 0px;
 }
 .social-links ul li a{
 	font-size: 28px;
