@@ -1947,6 +1947,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
+.modal-body iframe{
+	width: 100%;
+	height: 450px;
+}
 @media only screen and (min-width:1920px){
 
 	.our-clients.billing-payment h2{
@@ -2510,6 +2514,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff2d5', end
 }
 @media only screen and (max-width:767px){
 
+.modal-body iframe{
+	width: 100%;
+	height: 250px;
+}
 .automate-box{
 	height: auto;
 }
